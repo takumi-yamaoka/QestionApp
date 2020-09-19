@@ -13,6 +13,12 @@
 		D376FB8625039951002346B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376FB8425039951002346B3 /* Main.storyboard */; };
 		D376FB8825039953002346B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D376FB8725039953002346B3 /* Assets.xcassets */; };
 		D376FB8B25039953002346B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376FB8925039953002346B3 /* LaunchScreen.storyboard */; };
+		D376FB9325039AF7002346B3 /* batsuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D376FB9225039AF7002346B3 /* batsuSound.mp3 */; };
+		D376FB9625039B04002346B3 /* maruSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D376FB9425039B04002346B3 /* maruSound.mp3 */; };
+		D376FB9725039B04002346B3 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D376FB9525039B04002346B3 /* sound.mp3 */; };
+		D376FB9D25039DCA002346B3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB9C25039DCA002346B3 /* NextViewController.swift */; };
+		D376FB9F2512F242002346B3 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB9E2512F242002346B3 /* ImagesModel.swift */; };
+		D376FBA12512F47E002346B3 /* ImagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FBA02512F47E002346B3 /* ImagesList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		D376FB8725039953002346B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D376FB8A25039953002346B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D376FB8C25039953002346B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D376FB9225039AF7002346B3 /* batsuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = batsuSound.mp3; sourceTree = "<group>"; };
+		D376FB9425039B04002346B3 /* maruSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = maruSound.mp3; sourceTree = "<group>"; };
+		D376FB9525039B04002346B3 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		D376FB9C25039DCA002346B3 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		D376FB9E2512F242002346B3 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
+		D376FBA02512F47E002346B3 /* ImagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		D376FB7D25039951002346B3 /* QuestionApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				D376FB9825039C53002346B3 /* Model */,
+				D376FB9B25039C97002346B3 /* View */,
+				D376FB9A25039C6E002346B3 /* Controller */,
+				D376FB8925039953002346B3 /* LaunchScreen.storyboard */,
+				D376FB8C25039953002346B3 /* Info.plist */,
+				D376FB9225039AF7002346B3 /* batsuSound.mp3 */,
+				D376FB9425039B04002346B3 /* maruSound.mp3 */,
+				D376FB9525039B04002346B3 /* sound.mp3 */,
+			);
+			path = QuestionApp1;
+			sourceTree = "<group>";
+		};
+		D376FB9825039C53002346B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D376FB9E2512F242002346B3 /* ImagesModel.swift */,
+				D376FBA02512F47E002346B3 /* ImagesList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D376FB9A25039C6E002346B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				D376FB7E25039951002346B3 /* AppDelegate.swift */,
 				D376FB8025039951002346B3 /* SceneDelegate.swift */,
 				D376FB8225039951002346B3 /* ViewController.swift */,
+				D376FB9C25039DCA002346B3 /* NextViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D376FB9B25039C97002346B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				D376FB8425039951002346B3 /* Main.storyboard */,
 				D376FB8725039953002346B3 /* Assets.xcassets */,
-				D376FB8925039953002346B3 /* LaunchScreen.storyboard */,
-				D376FB8C25039953002346B3 /* Info.plist */,
 			);
-			path = QuestionApp1;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D376FB9325039AF7002346B3 /* batsuSound.mp3 in Resources */,
+				D376FB9625039B04002346B3 /* maruSound.mp3 in Resources */,
 				D376FB8B25039953002346B3 /* LaunchScreen.storyboard in Resources */,
 				D376FB8825039953002346B3 /* Assets.xcassets in Resources */,
+				D376FB9725039B04002346B3 /* sound.mp3 in Resources */,
 				D376FB8625039951002346B3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +184,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D376FB8325039951002346B3 /* ViewController.swift in Sources */,
+				D376FBA12512F47E002346B3 /* ImagesList.swift in Sources */,
+				D376FB9D25039DCA002346B3 /* NextViewController.swift in Sources */,
 				D376FB7F25039951002346B3 /* AppDelegate.swift in Sources */,
 				D376FB8125039951002346B3 /* SceneDelegate.swift in Sources */,
+				D376FB9F2512F242002346B3 /* ImagesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.QuestionApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +360,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.takumi.yam.QuestionApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
