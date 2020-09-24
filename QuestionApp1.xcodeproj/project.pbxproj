@@ -19,6 +19,9 @@
 		D376FB9D25039DCA002346B3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB9C25039DCA002346B3 /* NextViewController.swift */; };
 		D376FB9F2512F242002346B3 /* ImagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB9E2512F242002346B3 /* ImagesModel.swift */; };
 		D376FBA12512F47E002346B3 /* ImagesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FBA02512F47E002346B3 /* ImagesList.swift */; };
+		D388668A25182F8D0067D886 /* SoundFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388668925182F8D0067D886 /* SoundFile.swift */; };
+		D388668E251845DE0067D886 /* WithOutMP3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D388668D251845DE0067D886 /* WithOutMP3.swift */; };
+		D3886692251B8A020067D886 /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3886691251B8A020067D886 /* ChangeColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		D376FB9C25039DCA002346B3 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		D376FB9E2512F242002346B3 /* ImagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesModel.swift; sourceTree = "<group>"; };
 		D376FBA02512F47E002346B3 /* ImagesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesList.swift; sourceTree = "<group>"; };
+		D388668925182F8D0067D886 /* SoundFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundFile.swift; sourceTree = "<group>"; };
+		D388668D251845DE0067D886 /* WithOutMP3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithOutMP3.swift; sourceTree = "<group>"; };
+		D3886691251B8A020067D886 /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 			children = (
 				D376FB9E2512F242002346B3 /* ImagesModel.swift */,
 				D376FBA02512F47E002346B3 /* ImagesList.swift */,
+				D388668925182F8D0067D886 /* SoundFile.swift */,
+				D388668D251845DE0067D886 /* WithOutMP3.swift */,
+				D3886691251B8A020067D886 /* ChangeColor.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -184,11 +193,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D376FB8325039951002346B3 /* ViewController.swift in Sources */,
+				D388668A25182F8D0067D886 /* SoundFile.swift in Sources */,
 				D376FBA12512F47E002346B3 /* ImagesList.swift in Sources */,
 				D376FB9D25039DCA002346B3 /* NextViewController.swift in Sources */,
 				D376FB7F25039951002346B3 /* AppDelegate.swift in Sources */,
 				D376FB8125039951002346B3 /* SceneDelegate.swift in Sources */,
+				D3886692251B8A020067D886 /* ChangeColor.swift in Sources */,
 				D376FB9F2512F242002346B3 /* ImagesModel.swift in Sources */,
+				D388668E251845DE0067D886 /* WithOutMP3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
